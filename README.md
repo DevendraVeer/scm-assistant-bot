@@ -1,6 +1,6 @@
 # SCM Assistant TASK
 
-## 🔗 Public Chatbot URL :
+##  Public Chatbot URL :
 https://cloud.flowiseai.com/chatbot/8f68ae6d-31c6-4abd-9d5c-50c7e97a3735
 
 ##  LLM and Embeddings :
@@ -85,8 +85,7 @@ Being on the SWL restricts these suppliers from participating in new business op
 This does not exceed the Tier-2 limit, which is 2.50% as defined in Policy Section 3.2, so no breach exists, although it is approaching the threshold.
 
 
-## 🚀 What I'd Improve (Architectural Insights)
-
+## What I'd Improve:
 **The CSV vs. Vector DB Paradox (and how I handled it)**
 I noticed right away that this assignment has a built-in technical catch. The task requires loading a 2,000 row CSV into a standard Vector DB (Qdrant) and then asks questions requiring heavy mathematical aggregations like calculating an exact average defect rate across 360 POs or summing up a region's total spend to $193M. 
 
