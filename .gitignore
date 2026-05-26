@@ -1,0 +1,10 @@
+# Exclude environment variables and API keys
+.env
+*.env
+*api_key*
+*secret*
+credentials.json
+
+# Exclude system and node files
+node_modules/
+.DS_Store
